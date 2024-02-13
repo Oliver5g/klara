@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Message</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #e4ccccfc;
+            margin: 20% 0;
+        }
+        h1 {
+            color: #ff4d4d;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 20px;
+            background-color: #fc0328;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #ee03fa;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Valentine's Day!</h1>
+    <p id="message">I love you more than my life Klara. 💖 Your presence fills my days with joy, and every moment with you is a treasure. I really need you in my life. You are just the perfect wife and the perfect mother for my children,You are just effortlessly the prettiest girl i have ever seen in my life. </p>
+    <button onclick="addSpecialEffect()">Click for a special surprise!</button>
+    <p>With all my love, Oliver</p>
+
+    <script>
+        function addSpecialEffect() {
+            const messageElement = document.getElementById('message');
+            messageElement.innerHTML += '                                You make my world brighter!';
+        }
+    </script>
+</body>
+</html>
